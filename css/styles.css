@@ -3,8 +3,8 @@ body {
 }
 
 .menu {
-	height: 2000px;
-	background-color: #3655D1;
+	height: 3000px;
+	background-color: #5768F3;
 }
 
 .h50 {
@@ -14,9 +14,9 @@ body {
 	margin-top: 15px;
 	box-shadow: 0 4px 16px 0 rgba(167, 175, 183, 0.33);
 }
+
 .h50-1 {
 	height: 120px;
-	background-color: #FFFFFF;
 	/* border: #000000 solid 1px; */
 	margin-top: 15px;
 	box-shadow: 0 4px 16px 0 rgba(167, 175, 183, 0.33);
@@ -28,17 +28,19 @@ body {
 }
 
 .h200 {
-	height: 200px;
+	height: 400px;
 	background-color: #FFFFFF;
-	border: #000000 solid 1px;
+	/* border: #000000 solid 1px; */
 	margin-top: 15px;
+	box-shadow: 0 4px 16px 0 rgba(167, 175, 183, 0.33);
 }
 
 .number {
 	margin-left: 40px;
 }
 
-.number span,.cout .dropdown {
+.number span,
+.cout .dropdown {
 	width: 150px;
 	height: 50px;
 	line-height: 50px;
@@ -46,22 +48,26 @@ body {
 	vertical-align: middle;
 	font-family: "roboto", sans-serif;
 }
-.email-lin{
+
+.email-lin {
 	margin-left: 10px;
-	width:150px;
+	width: 150px;
 	height: 100px;
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
 }
-.email-lin img{
+
+.email-lin img {
 	margin-top: 18px;
 	margin-right: 18px;
 }
-.input-group .form-control{
+
+.input-group .form-control {
 	width: 100px;
 }
-.flag{
+
+.flag {
 	width: 23px;
 	height: 23px;
 	line-height: 5px;
@@ -70,69 +76,169 @@ body {
 	border-radius: 30px;
 	background-image: url(../img/Oval.jpg);
 }
-.dropdown{
+
+.dropdown {
 	margin-left: 32px;
 }
-.h4{
+
+.h4 {
 	font-size: 1.25rem;
 }
+
 .page-header {
-    display: flex;
-    width: 100%;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #cdd6dc;
-    margin-bottom: 15px;
+	display: flex;
+	width: 100%;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #cdd6dc;
+	margin-bottom: 15px;
 }
+
 .page-title {
-    
-    margin-bottom: 2px;
+
+	margin-bottom: 2px;
 }
+
 .w-100 {
-    width: 100% !important;
+	width: 100% !important;
 }
+
 .flex-md-wrap {
-    flex-wrap: wrap !important;
+	flex-wrap: wrap !important;
 }
+
 .d-md-flex {
-    display: flex !important;
+	display: flex !important;
 }
+
 .ml-auto {
-    margin-left: auto !important;
+	margin-left: auto !important;
 }
+
 .quick-links {
 	padding-left: 10px;
-    list-style: none;
-    margin-bottom: 0;
-    display: inline-flex;
-    align-items: center;
-    margin-top: 4px;
+	list-style: none;
+	margin-bottom: 0;
+	display: inline-flex;
+	align-items: center;
+	margin-top: 4px;
 }
+
 .quick-links li a {
-    display: inline-block;
-    color: #212529;
-    text-decoration: none;
-    padding-right: 10px;
+	display: inline-block;
+	color: #212529;
+	text-decoration: none;
+	padding-right: 10px;
 }
+
 .page-title {
 	margin-top: 0;
 	margin-bottom: 2px;
-    color: #212529;
-    margin: 0.38rem 0 0.75rem;
-    
+	color: #212529;
+	margin: 0.38rem 0 0.75rem;
+
 }
-.date{
+
+.date {
+	display: flex;
 	height: 40px;
 	width: 300px;
-	margin-left: 0;
-	margin-bottom: 0;
+	/* 	margin-left: 0;
+	margin-bottom: 0; */
 	border-radius: 5px;
-	background-color: aquamarine;
+	background-color: azure;
+	justify-content: center;
+	align-items: center;
 }
-.date span{
-	width: 300px;
-	height: 50px;
+
+.arrow-left {
+	height: 40px;
+	border-right: #CDD6DC 2px solid;
+	background: url(../img/arrow%20-left.png) no-repeat center center;
+}
+
+.arrow-right {
+	height: 40px;
+	border-left: #CDD6DC 2px solid;
+	background: url(../img/arrow-right.png) no-repeat center center;
+}
+
+.date span {
 	line-height: 20px;
-	display: inline-block;
-	vertical-align: middle;
 	font-family: "roboto", sans-serif;
+}
+
+.options {
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.options a {
+	color: blue;
+	text-decoration: underline;
+}
+
+.button1 {
+	margin-top: 7px;
+	margin-left: 15px;
+}
+
+.button1 button {
+	height: 25px;
+	border-radius: 4px;
+	background-color: deepskyblue;
+	color: #FFFFFF;
+}
+
+.Lpu .btn {
+	margin-left: 20px;
+}
+
+.font-family-1 {
+	font-family: Roboto-Bold;
+}
+
+.font-family-2 {
+	font-family: Roboto-Regular;
+}
+
+.k-num {
+	margin-top: 20px;
+}
+
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.col-xs-1-5 {
+	width: 20%;
+	float: left;
+}
+
+@media (min-width: 768px) {
+	.col-sm-1-5 {
+		width: 20%;
+		float: left;
+	}
+}
+
+@media (min-width: 992px) {
+	.col-md-1-5 {
+		width: 20%;
+		float: left;
+	}
+}
+
+@media (min-width: 1200px) {
+	.col-lg-1-5 {
+		width: 20%;
+		float: left;
+	}
 }
