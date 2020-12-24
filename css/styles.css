@@ -3,7 +3,7 @@ body {
 	min-width:1280px;
 	overflow-x: hidden;
 }
-div,img,span{
+div,img,span,th{
 	white-space:nowrap; 
 }
 .menu {
@@ -28,6 +28,13 @@ div,img,span{
 }
 
 .h50-1 {
+	background-color:#F3F3F3;
+	height: 120px;
+	margin-top: 15px;
+	box-shadow: 0 4px 16px 0 rgba(167, 175, 183, 0.33);
+}
+.h50-1-2 {
+	background-color:#FFFFFF;
 	height: 120px;
 	margin-top: 15px;
 	box-shadow: 0 4px 16px 0 rgba(167, 175, 183, 0.33);
@@ -118,8 +125,8 @@ div,img,span{
 }
 
 .page-title {
-
-	margin-bottom: 2px;
+	color: #212529;
+	margin: 0.38rem 0 0.75rem;
 }
 
 .w-100 {
@@ -342,10 +349,15 @@ div,img,span{
 }
 .nav-item:hover{
 	background-color: rgb(15,36,212);
+	width: 113%;
 }
  th{
 	 font-family: Roboto-Regular;
 	 font-size: 14px;
 	 font-weight: normal;
+ }
+ table{
+	border-collapse: collapse;
+	font-size: 10%;
  }
 
