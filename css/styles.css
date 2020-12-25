@@ -1,11 +1,9 @@
 body {
 	background: #ECECEC;
-	min-width:1280px;
-	overflow-x: hidden;
 }
-div,img,span,th{
+/* div,img,span,th{
 	white-space:nowrap; 
-}
+} */
 .menu {
 	height:2500px;
 	background-color: rgb(87,104,243);
@@ -20,10 +18,10 @@ div,img,span,th{
 	box-shadow: 0 4px 16px 0 rgba(167, 175, 183, 0.33);
 }
 .h50-2{
-	height: 175px;
+	
 	background-color: #FFFFFF;
 	/* border: #000000 solid 1px; */
-	margin-top: 15px;
+	margin-top: 20px;
 	box-shadow: 0 4px 16px 0 rgba(167, 175, 183, 0.33);
 }
 
@@ -42,7 +40,7 @@ div,img,span,th{
 .h50-3{
 	height: 150px;
 	background-color: #FFFFFF;
-	margin-top: 50px;
+	margin-top: 30px;
 	box-shadow: 0 4px 16px 0 rgba(167, 175, 183, 0.33);
 }
 
@@ -52,17 +50,28 @@ div,img,span,th{
 }
 
 .h200 {
+	/* height: 400px; */
+	
+	background-color: #FFFFFF;
+	/* border: #000000 solid 1px; */
+	margin-top: 30px;
+	
+	box-shadow: 0 4px 16px 0 rgba(167, 175, 183, 0.33);
+}
+.h200-2{
 	height: 400px;
+	min-height: 1px;
 	background-color: #FFFFFF;
 	/* border: #000000 solid 1px; */
 	margin-top: 15px;
+	
 	box-shadow: 0 4px 16px 0 rgba(167, 175, 183, 0.33);
 }
 .h200-1{
 	height: 400px;
 	background-color: #FFFFFF;
 	/* border: #000000 solid 1px; */
-	margin-top: 40px;
+	margin-top: 20px;
 	box-shadow: 0 4px 16px 0 rgba(167, 175, 183, 0.33);
 }
 
@@ -70,7 +79,7 @@ div,img,span,th{
 	margin-left: 40px;
 }
 
-.number span,
+
 .cout .dropdown {
 	width: 150px;
 	height: 50px;
@@ -82,15 +91,11 @@ div,img,span,th{
 
 .email-lin {
 	margin-left: 10px;
-	width: 150px;
-	height: 100px;
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
+
 }
 
 .email-lin img {
-	margin-top: 18px;
+	/* margin-top: 18px; */
 	margin-right: 18px;
 }
 
