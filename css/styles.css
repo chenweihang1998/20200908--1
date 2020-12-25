@@ -78,7 +78,10 @@ body {
 .number {
 	margin-left: 40px;
 }
-
+.number span{
+	text-align: center;
+	line-height: 50px;
+}
 
 .cout .dropdown {
 	width: 150px;
@@ -276,6 +279,11 @@ body {
 	.col-lg-1-5 {
 		width: 20%;
 		float: left;
+	}
+}
+@media screen and (max-width:900px){
+	.menu{
+		display: none;
 	}
 }
 .letter{
