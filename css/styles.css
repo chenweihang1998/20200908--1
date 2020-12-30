@@ -655,3 +655,13 @@ html{
 	line-height: 40px;
 	text-align: center;
 }
+.just-now{
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	margin-left: 25%;
+}
+.Graphic{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10%;
+}
