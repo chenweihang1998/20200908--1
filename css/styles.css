@@ -605,3 +605,53 @@ html{
 	margin-left: 12px;
 	font-family: Roboto-Regular;
 }
+.line-6{
+	margin-bottom: -77%;
+	margin-left: 12%;
+}
+.justify-content-between{
+	justify-content: space-between !important;
+}
+.align-items-center{
+	align-items: center !important;
+}
+.four{
+	font-size: 30px;
+	font-family: Roboto-Bold;
+	color: #FFFFFF;
+}
+.icon-holder{
+	border-radius: 5px;
+	border: 1px solid #4e55c5;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #2944b5;
+	color: #fff;
+	font-size: 20px;
+}
+.d-flex{
+	display: flex !important;
+}
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.88rem 1.81rem;
+}
+.icon-holder img{
+	margin-top: 0px;
+}
+.Average-Price{
+	font-family: Roboto-Medium;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.slm{
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: #FFFFFF;
+	line-height: 40px;
+	text-align: center;
+}
