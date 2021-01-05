@@ -612,6 +612,9 @@ html{
 .justify-content-between{
 	justify-content: space-between !important;
 }
+.justify-content-between-2{
+	justify-content: space-around !important;
+}
 .align-items-center{
 	align-items: center !important;
 }
@@ -664,4 +667,44 @@ html{
 	margin-top: 10px;
 	margin-left: 10px;
 	margin-bottom: 10%;
+}
+.dot-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.bg-danger {
+    background-color: #ff6258 !important;
+}
+.mr-2{
+	margin-right: 0.5rem !important;
+}
+.mb-0, .my-0 {
+    margin-bottom: 0 !important;
+}
+.progress .progress-bar {
+    border-radius: 3px;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #007bff;
+    transition: width 0.6s ease;
+}
+
+.progress.progress-md {
+    height: 8px;
+}
+.font-weight-semibold{
+	font-family: Roboto-Bold;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.bg-success {
+    background-color: #19d895 !important;
 }
