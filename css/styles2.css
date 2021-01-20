@@ -150,6 +150,7 @@ html{
 	margin-bottom: 15px;
 }
 
+
 .page-title {
 	color: #212529;
 	margin: 0.38rem 0 0.75rem;
@@ -179,14 +180,22 @@ html{
 	align-items: center;
 	margin-top: 4px;
 }
-
+.quick-links div{
+	height: 15px;
+	border: 1px solid black;
+}
+.quick-links li{
+	margin-left: 10px;
+}
 .quick-links li a {
 	display: inline-block;
 	color: #212529;
 	text-decoration: none;
 	padding-right: 10px;
 }
-
+.data-box span{
+	width: 80%;
+}
 .page-title {
 	margin-top: 0;
 	margin-bottom: 2px;
@@ -232,8 +241,13 @@ html{
 }
 
 .options a {
-	color: blue;
+	color:#1458E8;
 	text-decoration: underline;
+}
+.options-2{
+	margin-top: 10px;
+	margin-right: -30px;
+	margin-left: -30px;
 }
 
 .button1 {
@@ -242,9 +256,11 @@ html{
 }
 
 .button1 button {
+	font-family: Quicksand-Medium;
+	font-size: 12px;
+	background-color: #2B80FF;
 	height: 25px;
 	border-radius: 4px;
-	background-color: #1458E8;
 	color: #FFFFFF;
 }
 
@@ -350,6 +366,9 @@ html{
 	height: 30px;
 	border-bottom: rgba(216,216,216,0.13) 1px solid;
 }
+li{
+	list-style-type: none;
+}
 .Main span{
 	font-family: Roboto-Medium;
 	font-size: 15px;
@@ -357,6 +376,7 @@ html{
 }
 .nav{
 	list-style-type:circle;
+	width: 100%;
 }
 .round{
 	position: absolute;
@@ -373,7 +393,7 @@ html{
 }
 .nav-item{
 	height: 60px;
-	width: 253px;
+	width: 100%;
 	
 }
 .nav-item span.list-text{
@@ -386,7 +406,7 @@ html{
 }
 .nav-item:hover{
 	background-color: rgb(15,36,212);
-	width: 113%;
+	width: 100%;
 }
  th{
 	 font-family: Roboto-Regular;
@@ -538,15 +558,16 @@ html{
 	font-size: 15px;
 }
 .d-mun{
-	padding-left: 0px;
+	padding-left: 0%;
 	font-family: Roboto-Bold;
 	font-size: 18px;
 }
 .vic{
-	padding-left: 0px;
+	padding-left: 0%;
 	font-family: Roboto-Medium;
 }
 .d-percentage{
+	padding-left: 0%;
 	font-family: Roboto-Regular;
 	font-size: 12px;
 }
@@ -644,6 +665,9 @@ html{
 }
 .d-flex{
 	display: flex !important;
+}
+.d-flex .col-md-6{
+	margin-top: 20px;
 }
 .card-body {
     flex: 1 1 auto;
@@ -759,4 +783,81 @@ html{
 .chartjs-render-monitor {
     -webkit-animation: chartjs-render-animation 0.001s;
     animation: chartjs-render-animation 0.001s;
+	display: block;
+	height: 278px; 
+	width: 836px;
+}
+.flex{
+	display: flex;
+}
+.ao{
+	justify-content:space-between;
+	display: flex;
+	width: 90%;
+}
+.btn-group button{
+	background-color: #DDE4EB;
+}
+.btn-group{
+	margin-left: 15px;
+}
+.semibold{
+	font-weight: 18;
+	 font-family: Roboto-Bold;
+}
+.semibold-2{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.sare{
+	display: flex; 
+	margin-top: 25px;
+}
+.distance{
+	margin-bottom: 20px;
+}
+.Market{
+	margin-top: 20px;
+}
+.elit{
+	font-family: Roboto-Regular;
+	font-size: 13px;
+}
+.thirty-six{
+	font-family: Roboto-Bold;
+	font-size: 30px;
+}
+.USD{
+	font-family: Roboto-Regular;
+	font-size: 15px;
+	margin-left: 30px;
+}
+.ts{
+	font-family: Roboto-Bold;
+	font-size: 14px;
+	color: #06D186;
+	margin-left: 10px;
+}
+.Input-box{
+	width: 130px;
+	margin-top: -8px;
+	margin-left: 85px;
+	border-radius: 4px;
+}
+.Activities{
+	font-family:Roboto-Bold;
+	font-size: 15px;
+}
+.finished{
+	font-family: Roboto-Regular;
+	font-size: 12px;
+}
+.card-time{
+	margin-top: 20px;
+	justify-content: space-around;
+	display: flex;
+}
+.Net{
+	margin-top: 20px;
+	font-family: Roboto-Regular;
 }
